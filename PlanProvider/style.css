@@ -1,0 +1,125 @@
+
+body {
+    margin: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #f9ec95;
+}
+
+.plan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+.dropdown-btn button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 5px;
+}
+
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.table {
+    overflow-x: auto;
+    margin-top: 20px;
+    /* padding: 2%; */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+th, td {
+    border: 1px solid #0852db;
+    padding: 12px;
+    text-align: center;
+
+}
+
+th {
+    background-color: #a4a1a1;
+    color: #e93838;
+    font-weight: bold;
+    text-align: center;
+
+}
+.container a{
+    
+    background-color: #acb5be;
+    border-radius: 14px;
+    text-decoration: none;
+    justify-items: center;
+    text-align: center;
+    margin-left: 44%;
+    font-size: 8px;
+    padding: 5px;
+    margin-bottom: -7%;
+}
+/* .footer a{
+    background-color: #acb5be;
+    border-radius: 14px;
+    text-decoration: none;
+    justify-items: center;
+    text-align: center;
+    margin-left: 44%;
+    font-size: 8px;
+    padding: 5px;
+    margin-bottom: -7%;
+} */
